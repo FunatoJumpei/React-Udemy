@@ -1,0 +1,19 @@
+.container {
+    border: solid 2px red;
+    padding: 8px;
+    margin: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title {
+    margin: 0;
+    color: green;
+};
+
+.button {
+    background-color: blue;
+    border-color: none;
+    padding: "8px"
+}

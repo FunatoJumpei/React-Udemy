@@ -3,6 +3,7 @@ import './App.css';
 import { useCallback, useState } from 'react';
 import { ChildArea } from './components/ChildArea';
 import { InlineStyle } from './components/inlineStyle';
+import { CssModules } from './components/CssModules';
 
 export function App() {
   const [text, setText] = useState("");
@@ -18,6 +19,7 @@ export function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <br/>
         <InlineStyle/>
+        <CssModules/>
         <br/>
         <input value={text} onChange={onChangeText}/>
         <br/>

@@ -8,7 +8,6 @@ const style = {
 
 export const ChildArea = memo((props) => {
     const {open, onClickClose} = props;
-    console.log("ChildAreaがレンダリングされた")
     return (
         <>
         {open ? (
